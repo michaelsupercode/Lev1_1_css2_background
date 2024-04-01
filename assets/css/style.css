@@ -1,3 +1,26 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+  }
+
+  main {
+    width: 80vw;
+    padding: .4em;
+  }
+  
+  main:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+  
+
 section {
     background: linen
 }
@@ -5,5 +28,12 @@ h1 {
     background: lightblue; 
 }
 article, h2 {
+    color: white;
     background-image: url("https://images.unsplash.com/photo-1639021110987-f8e727d5f43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MDYyODgzOA&ixlib=rb-1.2.1&q=80&w=1080");
 }
+
+h6 {
+    /* margin: 2vh; */
+    text-align: center;
+    }
+  
